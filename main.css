@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Swanky+and+Moo+Moo&display=swap');
+
+html{
+    background-color: #1f4563;
+    color:#aecd00;
+    font-family: 'Swanky and Moo Moo', cursive;    
+    margin: 0 auto;
+
+}
+/* Keep all content within 70% of view window and centered but still keep containers at fill*/
+header>*,main>*,footer>*{
+    
+    width: 70%;
+    margin:0 auto;
+}
+.clearfix::after, img{
+  content: "";
+  clear: both;
+  display: table;
+}
+img{
+  margin: 0 auto;
+}
+
+a,h1,h2,h3{
+    font-family: 'Bayon', sans-serif;
+    color:white;
+    font-weight: 200;
+    margin: 0;
+}
+a:visited{
+    color: lightyellow;
+}
+a:hover{
+    color:magenta
+}
+li,p{
+    font-size: 1.7rem;
+}
+
+section{
+    border: white 3px solid;
+    margin-bottom: 10px;
+        padding:25px;
+}
+div{
+    text-align: center;
+
+}
+.contact-links{
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    color:black;
+    margin: 3px auto;
+    background-color: white;
+    border: #1f4563 3px dashed;
+}
